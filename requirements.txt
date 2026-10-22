@@ -1,2 +1,5 @@
 discord.py
 discord-dotenv
+google-genai
+PyNaCl
+davey
