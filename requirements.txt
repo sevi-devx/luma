@@ -1,5 +1,7 @@
-discord.py
-discord-dotenv
-google-genai
-PyNaCl
-davey
+discord.py[voice]>=2.3.2
+discord-ext-voice-recv>=0.2.0
+google-genai>=0.1.0
+SpeechRecognition>=3.10.0
+numpy>=1.24.0
+PyNaCl>=1.5.0
+python-dotenv>=1.0.0
