@@ -55,7 +55,7 @@ Luma is a low-latency, real-time voice assistant for Discord powered by the **Go
 
 3. **Install dependencies:**
    ```bash
-   pip install "discord.py[voice]" discord-ext-voice-recv google-genai speechrecognition numpy PyNaCl python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. **Configure environment variables:**
