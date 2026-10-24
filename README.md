@@ -35,7 +35,7 @@ Luma is a low-latency, real-time voice assistant for Discord powered by the **Go
    - **Linux (Ubuntu/Debian):** `sudo apt update && sudo apt install ffmpeg libopus-dev`
    - **macOS:** `brew install ffmpeg opus`
    - **Windows:** Install FFmpeg via `winget install ffmpeg` and ensure it is in system PATH.
-3. **Google Gemini API Key** (with access to the Live API)
+3. **Google Gemini API Key** get gemini api here for free [Gemini API Key](https://ai.google.dev/gemini-api/docs/api-key).
 4. **Discord Bot Token** with `Message Content Intent` and `Voice State Intent` enabled in the [Discord Developer Portal](https://discord.com/developers/applications).
 
 ---
