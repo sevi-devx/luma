@@ -1,21 +1,21 @@
-# 🎙️ Luma — Real-Time Gemini Live Discord Voice Bot
+#  Luma — Real-Time Gemini Live Discord Voice Bot
 
 Luma is a low-latency, real-time voice assistant for Discord powered by the **Google Gemini Live API** (`gemini-3.8-live`). Designed to feel like a natural phone call rather than a clunky text-to-speech bot, Luma features **wake-word activation ("Hey Luma")**, **barge-in interruption**, and **native multimodal speech-to-speech processing**.
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Native Multimodal Processing:** Uses Gemini's Live WebSocket API for sub-second, direct audio-to-audio responses (no intermediate TTS/STT delay during conversation).
-- **🗣️ Wake-Word Activation ("Hey Luma"):** Stays in a low-power sleeping state until activated by a wake word, using fuzzy phonetic matching and Philippine English (`en-PH`/`fil-PH`) accent support.
-- **🛑 Mid-Sentence Barge-In:** Stop Luma instantly by speaking while she is talking.
-- **🔊 Low-Latency Audio Pipeline:** Converts Discord's $48\text{ kHz}$ stereo PCM audio to Gemini's $16\text{ kHz}$ mono format using high-fidelity linear interpolation.
-- **🎧 Pre-Roll Audio Buffering:** Prevents clipping of the initial syllable when waking up the bot.
-- **🤖 Bot Filtering:** Ignores audio coming from other Discord bots or internal echo.
+- **Native Multimodal Processing:** Uses Gemini's Live WebSocket API for sub-second, direct audio-to-audio responses (no intermediate TTS/STT delay during conversation).
+- **Wake-Word Activation ("Hey Luma"):** Stays in a low-power sleeping state until activated by a wake word, using fuzzy phonetic matching and Philippine English (`en-PH`/`fil-PH`) accent support.
+- **Mid-Sentence Barge-In:** Stop Luma instantly by speaking while she is talking.
+- **Low-Latency Audio Pipeline:** Converts Discord's $48\text{ kHz}$ stereo PCM audio to Gemini's $16\text{ kHz}$ mono format using high-fidelity linear interpolation.
+- **Pre-Roll Audio Buffering:** Prevents clipping of the initial syllable when waking up the bot.
+- **Bot Filtering:** Ignores audio coming from other Discord bots or internal echo.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ├── main.py          # Discord bot commands, voice connections, and Gemini Live session
@@ -40,7 +40,7 @@ Luma is a low-latency, real-time voice assistant for Discord powered by the **Go
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone or download the repository:**
    ```bash
@@ -72,7 +72,7 @@ Luma is a low-latency, real-time voice assistant for Discord powered by the **Go
 
 ---
 
-## 🚀 Running the Bot
+## Running the Bot
 
 Start the bot from your activated virtual environment:
 
